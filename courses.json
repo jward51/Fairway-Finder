@@ -1,19 +1,413 @@
 [
-{"id":"torrey-south","name":"Torrey Pines South","area":"La Jolla","lat":32.9019,"lon":-117.2515,"provider":"San Diego Municipal","tier":"Championship","tags":["Coastal","Iconic"],"bookingUrl":"https://www.sandiego.gov/park-and-recreation/golf","accountKey":"city","note":"Book through the City of San Diego official golf portal."},
-{"id":"torrey-north","name":"Torrey Pines North","area":"La Jolla","lat":32.9019,"lon":-117.2515,"provider":"San Diego Municipal","tier":"Championship","tags":["Coastal","City resident rates"],"bookingUrl":"https://www.sandiego.gov/park-and-recreation/golf","accountKey":"city","note":"Book through the City of San Diego official golf portal."},
-{"id":"maderas","name":"Maderas Golf Club","area":"Poway","lat":33.0354,"lon":-117.0288,"provider":"Maderas","tier":"Premium","tags":["Scenic","Challenging"],"bookingUrl":"https://www.maderasgolf.com/tee-times/","accountKey":"maderas","note":"Official Maderas tee-time page."},
-{"id":"aviara","name":"Aviara Golf Club","area":"Carlsbad","lat":33.0971,"lon":-117.2854,"provider":"Aviara","tier":"Premium","tags":["Resort","Scenic"],"bookingUrl":"https://parkhyattaviara.com/golf/","accountKey":"aviara","note":"Official golf page; choose booking options there."},
-{"id":"encinitas","name":"Encinitas Ranch","area":"Encinitas","lat":33.0665,"lon":-117.2801,"provider":"JC Golf / CPS","tier":"Public favorite","tags":["Coastal","JC Golf"],"bookingUrl":"https://www.encinitasranchgolf.com/teetime","accountKey":"jc","note":"Official course page provides distinct public, resident and JC Player booking links."},
-{"id":"crossings","name":"The Crossings at Carlsbad","area":"Carlsbad","lat":33.1289,"lon":-117.3050,"provider":"JC Golf / CPS","tier":"Public favorite","tags":["Coastal","JC Golf"],"bookingUrl":"https://www.thecrossingsatcarlsbad.com/","accountKey":"jc","note":"Use official course website to reach its authorized tee sheet."},
-{"id":"twin-oaks","name":"Twin Oaks Golf Course","area":"San Marcos","lat":33.1565,"lon":-117.1604,"provider":"JC Golf / CPS","tier":"Everyday","tags":["JC Golf","Value"],"bookingUrl":"https://www.jcgolf.com/","accountKey":"jc","note":"Use JC Golf official Book Tee Time navigation."},
-{"id":"rancho-bernardo","name":"Rancho Bernardo Inn","area":"Rancho Bernardo","lat":33.0247,"lon":-117.0764,"provider":"JC Golf / CPS","tier":"Resort","tags":["JC Golf","Resort"],"bookingUrl":"https://www.ranchobernardoinn.com/","accountKey":"jc","note":"Official resort site; JC Golf also lists it in its booking system."},
-{"id":"coronado","name":"Coronado Golf Course","area":"Coronado","lat":32.6789,"lon":-117.1650,"provider":"Coronado Municipal","tier":"Public favorite","tags":["Bay views","Municipal"],"bookingUrl":"https://www.golfcoronado.com/home","accountKey":"coronado","note":"Official Coronado Golf Course booking website."},
-{"id":"steele","name":"Steele Canyon Golf Club","area":"Jamul","lat":32.7280,"lon":-116.9420,"provider":"Steele Canyon","tier":"Championship","tags":["27 holes","Mountain views"],"bookingUrl":"https://www.steelecanyon.com/","accountKey":"steele","note":"Official course website."},
-{"id":"woodson","name":"Mt. Woodson Golf Club","area":"Ramona","lat":33.0160,"lon":-116.9520,"provider":"Mt. Woodson","tier":"Scenic","tags":["Mountain views","Target golf"],"bookingUrl":"https://www.mtwoodsongolfclub.com/","accountKey":"woodson","note":"Official website; verify the current booking path."},
-{"id":"arrowood","name":"Arrowood Golf Course","area":"Oceanside","lat":33.2628,"lon":-117.2816,"provider":"Arrowood","tier":"Public favorite","tags":["North County","Scenic"],"bookingUrl":"https://arrowoodgolf.com/book/","accountKey":"arrowood","note":"Official course booking page."},
-{"id":"balboa","name":"Balboa Park Golf Course","area":"San Diego","lat":32.7323,"lon":-117.1409,"provider":"San Diego Municipal","tier":"Everyday","tags":["Municipal","Central"],"bookingUrl":"https://www.sandiego.gov/park-and-recreation/golf","accountKey":"city","note":"Book through the City of San Diego official portal."},
-{"id":"mission-bay","name":"Mission Bay Golf Course","area":"Pacific Beach","lat":32.8014,"lon":-117.2201,"provider":"San Diego Municipal","tier":"Short course","tags":["Night golf","Municipal"],"bookingUrl":"https://www.sandiego.gov/park-and-recreation/golf","accountKey":"city","note":"Book through the City of San Diego official portal."},
-{"id":"rams-hill","name":"Rams Hill Golf Club","area":"Borrego Springs","lat":33.2432,"lon":-116.3469,"provider":"Rams Hill","tier":"Destination","tags":["Desert","Destination"],"bookingUrl":"https://ramshill.com/tee-sheet/","accountKey":"rams","note":"Official Rams Hill tee sheet; seasonal operations may apply."},
-{"id":"singing-hills","name":"Singing Hills – Willow Glen / Oak Glen","area":"El Cajon","lat":32.7711,"lon":-116.8706,"provider":"Singing Hills","tier":"Everyday","tags":["East County","36 holes"],"bookingUrl":"https://www.singinghillsgolfclub.com/","accountKey":"singing","note":"Official course website; choose the desired 18-hole course."},
-{"id":"golf-club-california","name":"The Golf Club of California","area":"Fallbrook","lat":33.3391,"lon":-117.2000,"provider":"JC Golf / CPS","tier":"Championship","tags":["North County","JC Golf"],"bookingUrl":"https://www.jcgolf.com/","accountKey":"jc","note":"Check official JC Golf listing and reservation options."}
+  {
+    "id": "torrey-south",
+    "name": "Torrey Pines South",
+    "area": "La Jolla",
+    "lat": 32.9019,
+    "lon": -117.2515,
+    "provider": "San Diego Municipal",
+    "tier": "Championship",
+    "tags": [
+      "Coastal",
+      "Iconic"
+    ],
+    "bookingUrl": "https://foreupsoftware.com/index.php/booking/19347/1468",
+    "accountKey": "city",
+    "note": "City-linked ForeUP portal. Confirm tee sheet and resident eligibility there; no in-app inventory feed.",
+    "bookingSource": "https://www.sandiego.gov/park-and-recreation/golf",
+    "linkChecked": "2026-11-04",
+    "bookingKind": "Official booking portal"
+  },
+  {
+    "id": "torrey-north",
+    "name": "Torrey Pines North",
+    "area": "La Jolla",
+    "lat": 32.9019,
+    "lon": -117.2515,
+    "provider": "San Diego Municipal",
+    "tier": "Championship",
+    "tags": [
+      "Coastal",
+      "City resident rates"
+    ],
+    "bookingUrl": "https://foreupsoftware.com/index.php/booking/19347/1468",
+    "accountKey": "city",
+    "note": "City-linked ForeUP portal. Confirm tee sheet and resident eligibility there; no in-app inventory feed.",
+    "bookingSource": "https://www.sandiego.gov/park-and-recreation/golf",
+    "linkChecked": "2026-11-04",
+    "bookingKind": "Official booking portal"
+  },
+  {
+    "id": "maderas",
+    "name": "Maderas Golf Club",
+    "area": "Poway",
+    "lat": 33.0354,
+    "lon": -117.0288,
+    "provider": "Maderas",
+    "tier": "Premium",
+    "tags": [
+      "Scenic",
+      "Challenging"
+    ],
+    "bookingUrl": "https://maderasnrbest.ezlinksgolf.com/",
+    "accountKey": "maderas",
+    "note": "Non-member portal linked by Maderas. Published green fees exclude the cart charge; confirm total at booking/check-in.",
+    "bookingSource": "https://www.maderasgolf.com/tee-times/",
+    "linkChecked": "2026-11-04",
+    "bookingKind": "Official booking portal",
+    "offer": {
+      "title": "Players Club: 20% rate reduction",
+      "kind": "Paid membership",
+      "details": "Published member benefit within a 7-day booking window. Tier, blackout and fee restrictions apply; compare membership cost and cart fees.",
+      "source": "https://www.maderasgolf.com/players-club/",
+      "checked": "2026-11-04"
+    }
+  },
+  {
+    "id": "aviara",
+    "name": "Aviara Golf Club",
+    "area": "Carlsbad",
+    "lat": 33.0971,
+    "lon": -117.2854,
+    "provider": "Aviara",
+    "tier": "Premium",
+    "tags": [
+      "Resort",
+      "Scenic"
+    ],
+    "bookingUrl": "https://parkhyattaviara.com/golf/",
+    "accountKey": "aviara",
+    "note": "Official golf page; choose booking options there."
+  },
+  {
+    "id": "encinitas",
+    "name": "Encinitas Ranch",
+    "area": "Encinitas",
+    "lat": 33.0665,
+    "lon": -117.2801,
+    "provider": "JC Golf / CPS",
+    "tier": "Public favorite",
+    "tags": [
+      "Coastal",
+      "JC Golf"
+    ],
+    "bookingUrl": "https://jcgsc5.cps.golf/onlineresweb/search-teetime",
+    "accountKey": "jc",
+    "note": "Public-player 0\u20137 day portal linked by Encinitas Ranch. Check greens recovery notice before booking.",
+    "bookingSource": "https://www.encinitasranchgolf.com/public-player-tee-times",
+    "linkChecked": "2026-11-04",
+    "bookingKind": "Official booking portal",
+    "offer": {
+      "title": "35% off during greens recovery",
+      "kind": "Limited offer",
+      "details": "Course advertises 35% off applicable rates through Nov 20, 2026. Greens are recovering; temporary putting surfaces may be in use. Confirm conditions and final price.",
+      "source": "https://www.encinitasranchgolf.com/teetime",
+      "expires": "2026-11-20",
+      "checked": "2026-11-04"
+    }
+  },
+  {
+    "id": "crossings",
+    "name": "The Crossings at Carlsbad",
+    "area": "Carlsbad",
+    "lat": 33.1289,
+    "lon": -117.305,
+    "provider": "JC Golf / CPS",
+    "tier": "Public favorite",
+    "tags": [
+      "Coastal",
+      "JC Golf"
+    ],
+    "bookingUrl": "https://jcgpub29.cps.golf/onlineresweb/search-teetime",
+    "accountKey": "jc",
+    "note": "Public-player portal. Resident and JC Player rates require eligibility; select the appropriate option on the course site.",
+    "bookingSource": "https://www.thecrossingsatcarlsbad.com/",
+    "linkChecked": "2026-11-04",
+    "bookingKind": "Official booking portal"
+  },
+  {
+    "id": "twin-oaks",
+    "name": "Twin Oaks Golf Course",
+    "area": "San Marcos",
+    "lat": 33.1565,
+    "lon": -117.1604,
+    "provider": "JC Golf / CPS",
+    "tier": "Everyday",
+    "tags": [
+      "JC Golf",
+      "Value"
+    ],
+    "bookingUrl": "https://www.jcgolf.com/san-diego-tee-times/san-marcos-ca-golf-courses",
+    "accountKey": "jc",
+    "note": "Use Book a Tee Time and choose your eligible rate. The observed SC Resident link is available separately in the JC launcher.",
+    "bookingSource": "https://www.jcgolf.com/san-diego-tee-times/san-marcos-ca-golf-courses",
+    "linkChecked": "2026-11-04",
+    "bookingKind": "Official booking page"
+  },
+  {
+    "id": "rancho-bernardo",
+    "name": "Rancho Bernardo Inn",
+    "area": "Rancho Bernardo",
+    "lat": 33.0247,
+    "lon": -117.0764,
+    "provider": "JC Golf / CPS",
+    "tier": "Resort",
+    "tags": [
+      "JC Golf",
+      "Resort"
+    ],
+    "bookingUrl": "https://www.ranchobernardoinn.com/rancho-bernardo-inn-golf",
+    "accountKey": "jc",
+    "note": "Use Book Now on the official golf page. A direct course-specific CPS destination has not been verified.",
+    "bookingSource": "https://www.ranchobernardoinn.com/rancho-bernardo-inn-golf",
+    "linkChecked": "2026-11-04",
+    "bookingKind": "Official booking page"
+  },
+  {
+    "id": "coronado",
+    "name": "Coronado Golf Course",
+    "area": "Coronado",
+    "lat": 32.6789,
+    "lon": -117.165,
+    "provider": "Coronado Municipal",
+    "tier": "Public favorite",
+    "tags": [
+      "Bay views",
+      "Municipal"
+    ],
+    "bookingUrl": "https://www.golfcoronado.com/home",
+    "accountKey": "coronado",
+    "note": "Official Coronado Golf Course booking website."
+  },
+  {
+    "id": "steele",
+    "name": "Steele Canyon Golf Club",
+    "area": "Jamul",
+    "lat": 32.728,
+    "lon": -116.942,
+    "provider": "Steele Canyon",
+    "tier": "Championship",
+    "tags": [
+      "27 holes",
+      "Mountain views"
+    ],
+    "bookingUrl": "https://www.steelecanyon.com/",
+    "accountKey": "steele",
+    "note": "Official course website."
+  },
+  {
+    "id": "woodson",
+    "name": "Mt. Woodson Golf Club",
+    "area": "Ramona",
+    "lat": 33.016,
+    "lon": -116.952,
+    "provider": "Mt. Woodson",
+    "tier": "Scenic",
+    "tags": [
+      "Mountain views",
+      "Target golf"
+    ],
+    "bookingUrl": "https://www.mtwoodsongolfclub.com/",
+    "accountKey": "woodson",
+    "note": "Official website; verify the current booking path."
+  },
+  {
+    "id": "arrowood",
+    "name": "Arrowood Golf Course",
+    "area": "Oceanside",
+    "lat": 33.2628,
+    "lon": -117.2816,
+    "provider": "Arrowood",
+    "tier": "Public favorite",
+    "tags": [
+      "North County",
+      "Scenic"
+    ],
+    "bookingUrl": "https://arrowoodgolf.com/book/",
+    "accountKey": "arrowood",
+    "note": "Official course booking page."
+  },
+  {
+    "id": "balboa",
+    "name": "Balboa Park Golf Course",
+    "area": "San Diego",
+    "lat": 32.7323,
+    "lon": -117.1409,
+    "provider": "San Diego Municipal",
+    "tier": "Everyday",
+    "tags": [
+      "Municipal",
+      "Central"
+    ],
+    "bookingUrl": "https://foreupsoftware.com/index.php/booking/19348/1470",
+    "accountKey": "city",
+    "note": "City-linked ForeUP portal. Confirm tee sheet and resident eligibility there; no in-app inventory feed.",
+    "bookingSource": "https://www.sandiego.gov/park-and-recreation/golf",
+    "linkChecked": "2026-11-04",
+    "bookingKind": "Official booking portal"
+  },
+  {
+    "id": "mission-bay",
+    "name": "Mission Bay Golf Course",
+    "area": "Pacific Beach",
+    "lat": 32.8014,
+    "lon": -117.2201,
+    "provider": "San Diego Municipal",
+    "tier": "Short course",
+    "tags": [
+      "Night golf",
+      "Municipal"
+    ],
+    "bookingUrl": "https://foreupsoftware.com/index.php/booking/19346/1469",
+    "accountKey": "city",
+    "note": "City-linked ForeUP portal. Confirm tee sheet and resident eligibility there; no in-app inventory feed.",
+    "bookingSource": "https://www.sandiego.gov/park-and-recreation/golf",
+    "linkChecked": "2026-11-04",
+    "bookingKind": "Official booking portal"
+  },
+  {
+    "id": "rams-hill",
+    "name": "Rams Hill Golf Club",
+    "area": "Borrego Springs",
+    "lat": 33.2432,
+    "lon": -116.3469,
+    "provider": "Rams Hill",
+    "tier": "Destination",
+    "tags": [
+      "Desert",
+      "Destination"
+    ],
+    "bookingUrl": "https://ramshill.com/tee-sheet/",
+    "accountKey": "rams",
+    "note": "Official Rams Hill tee sheet; seasonal operations may apply."
+  },
+  {
+    "id": "singing-hills",
+    "name": "Singing Hills \u2013 Willow Glen / Oak Glen",
+    "area": "El Cajon",
+    "lat": 32.7711,
+    "lon": -116.8706,
+    "provider": "Singing Hills",
+    "tier": "Everyday",
+    "tags": [
+      "East County",
+      "36 holes"
+    ],
+    "bookingUrl": "https://www.singinghillsgolfclub.com/",
+    "accountKey": "singing",
+    "note": "Official course website; choose the desired 18-hole course."
+  },
+  {
+    "id": "golf-club-california",
+    "name": "The Golf Club of California",
+    "area": "Fallbrook",
+    "lat": 33.3391,
+    "lon": -117.2,
+    "provider": "JC Golf / CPS",
+    "tier": "Championship",
+    "tags": [
+      "North County",
+      "JC Golf"
+    ],
+    "bookingUrl": "https://jcgpub32.cps.golf/onlineresweb/search-teetime?TeeOffTimeMax=23.999722222222225&TeeOffTimeMin=0",
+    "accountKey": "jc",
+    "note": "Official public-player portal. Summit and JC Player rates have separate eligible-member links.",
+    "bookingSource": "https://www.thegolfclubofcalifornia.com/teetimes",
+    "linkChecked": "2026-11-04",
+    "bookingKind": "Official booking portal"
+  },
+  {
+    "id": "riverwalk",
+    "name": "Riverwalk Golf Club",
+    "area": "Mission Valley",
+    "lat": 32.765,
+    "lon": -117.175,
+    "provider": "EZLinks",
+    "tier": "Public",
+    "tags": [
+      "Public",
+      "Non-JC"
+    ],
+    "bookingUrl": "https://riverwalkcoursepp.ezlinksgolf.com/index.html",
+    "bookingSource": "https://riverwalkgc.com/",
+    "bookingKind": "Official booking portal",
+    "linkChecked": "2026-11-04",
+    "accountKey": "riverwalk",
+    "note": "Course-linked tee-time portal. Check live rates and twilight options on the provider site.",
+    "coordinateNote": "Approximate course location; distances are straight-line estimates.",
+    "offer": {
+      "title": "Compare twilight and super-twilight rates",
+      "kind": "Rate option",
+      "details": "Course lists twilight at noon and super twilight at 2 PM when checked. No fixed savings or available slots confirmed; check today\u2019s prices and daylight.",
+      "source": "https://riverwalkgc.com/",
+      "checked": "2026-11-04"
+    }
+  },
+  {
+    "id": "vineyard",
+    "name": "The Vineyard at Escondido",
+    "area": "Escondido",
+    "lat": 33.084,
+    "lon": -117.067,
+    "provider": "TeeItUp",
+    "tier": "Public",
+    "tags": [
+      "Public",
+      "Non-JC"
+    ],
+    "bookingUrl": "https://the-vineyard-at-escondido.book.teeitup.com/",
+    "bookingSource": "https://www.vineyardatescondido.com/book-a-tee-time/",
+    "bookingKind": "Official booking portal",
+    "linkChecked": "2026-11-04",
+    "accountKey": "vineyard",
+    "note": "Standard reservations up to 7 days; member rates after provider login. Premium advance reservations have additional fees.",
+    "coordinateNote": "Approximate course location; distances are straight-line estimates."
+  },
+  {
+    "id": "mission-trails",
+    "name": "Mission Trails Golf Course",
+    "area": "San Carlos",
+    "lat": 32.79,
+    "lon": -117.048,
+    "provider": "TeeItUp",
+    "tier": "Public",
+    "tags": [
+      "Public",
+      "Non-JC"
+    ],
+    "bookingUrl": "https://mission-trails-golf-course.book.teeitup.com/",
+    "bookingSource": "https://www.missiontrailsgc.com/book-a-tee-time/",
+    "bookingKind": "Official booking portal",
+    "linkChecked": "2026-11-04",
+    "accountKey": "mission-trails",
+    "note": "Standard reservations up to 7 days; eligible senior adjustments at check-in Monday\u2013Thursday excluding holidays.",
+    "coordinateNote": "Approximate course location; distances are straight-line estimates."
+  },
+  {
+    "id": "native-oaks",
+    "name": "Native Oaks Golf Club",
+    "area": "Valley Center",
+    "lat": 33.224,
+    "lon": -117.023,
+    "provider": "Golf with Access",
+    "tier": "Public",
+    "tags": [
+      "Public",
+      "Non-JC"
+    ],
+    "bookingUrl": "https://golfwithaccess.com/course/native-oaks-golf-club/reserve-tee-time?filterFacilities=native-oaks-gc",
+    "bookingSource": "https://www.nativeoaksgolfclub.com/faq/",
+    "bookingKind": "Official booking portal",
+    "linkChecked": "2026-11-04",
+    "accountKey": "native-oaks",
+    "note": "Course-linked Access portal. Oaks Card discounts require a paid card; confirm eligibility and total price.",
+    "coordinateNote": "Approximate course location; distances are straight-line estimates.",
+    "offer": {
+      "title": "Oaks Card: 20\u201325% off regular rates",
+      "kind": "Paid membership",
+      "details": "Course advertises cardholder savings. Paid card required; verify current terms and eligible rates before purchasing.",
+      "source": "https://www.nativeoaksgolfclub.com/faq/",
+      "checked": "2026-11-04"
+    }
+  }
 ]

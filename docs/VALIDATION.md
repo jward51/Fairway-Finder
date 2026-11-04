@@ -15,3 +15,7 @@ The patch is based on the matching uploaded baseline. In a checkout of jward51/F
 ## Twin Oaks shortcut follow-up
 
 Two additional tests pass for observed host/path/course/date construction and rejection of invalid dates/unknown course mappings. All three test files pass. The shortcut is not yet verified through actual provider login on iPhone. No production deployment performed.
+
+## Booking and savings expansion
+
+All five test files pass (12 test cases): expiry/eligibility labeling, catalog integrity, course-specific destinations, booking/savings tab rendering and prior filtering/link tests. JavaScript syntax and whitespace checks pass. No iPhone browser or real live inventory verification is claimed. Official portal provenance and retrieval limits are documented in BOOKING-SOURCES.md.
