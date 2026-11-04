@@ -1,0 +1,26 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import vm from 'node:vm';
+import {readFileSync} from 'node:fs';
+import {activeOffer} from '../sourced-booking.js';
+import {sanDiegoToday} from '../availability.js';
+import {observedBookingUrl} from '../booking-links.js';
+test('booking and savings tabs render course-specific destinations without inventory claims',()=>{
+ const data=JSON.parse(readFileSync(new URL('../courses.json',import.meta.url)));
+ const app={innerHTML:''};
+ const context=vm.createContext({activeOffer,sanDiegoToday,observedBookingUrl,availabilityPanel:()=>'',handleAvailabilitySubmit:()=>{},localStorage:{getItem:()=>null},document:{querySelector:s=>s==='#app'?app:null,addEventListener(){}},setTimeout,clearTimeout,URL});
+ let source=readFileSync(new URL('../app.js',import.meta.url),'utf8').replace(/^import .*;\n/gm,'').replace(/\ninit\(\);\s*$/,'');
+ vm.runInContext(source,context);
+ context.catalog=data;
+ vm.runInContext("courses=catalog;tab='booking';render();",context);
+ assert.match(app.innerHTML,/Book nearby courses/);
+ assert.match(app.innerHTML,/riverwalkcoursepp.ezlinksgolf.com/);
+ assert.match(app.innerHTML,/mission-trails-golf-course.book.teeitup.com/);
+ assert.match(app.innerHTML,/Availability and prices: check provider site/);
+ vm.runInContext("tab='savings';render();",context);
+ assert.match(app.innerHTML,/Published golf savings/);
+ assert.match(app.innerHTML,/Paid membership/);
+ vm.runInContext("tab='jc';store.jcLauncher.course='golf-club-california';render();",context);
+ assert.equal(vm.runInContext('jcUrl()',context),data.find(c=>c.id==='golf-club-california').bookingUrl);
+ assert.doesNotMatch(app.innerHTML,/use Google's official login/);
+});
