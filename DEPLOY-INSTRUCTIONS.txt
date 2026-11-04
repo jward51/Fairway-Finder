@@ -1,0 +1,11 @@
+Fairway Finder SD — Cloudflare Pages iPhone deploy
+
+1. Save the ZIP to Files on iPhone.
+2. In Safari open https://dash.cloudflare.com and sign in.
+3. Workers & Pages > Create application > Get started > Drag and drop your files (wording may vary).
+4. Name project fairway-finder-sd or another unique name.
+5. Choose the ZIP and Deploy site.
+6. Open the resulting https://YOUR-PROJECT.pages.dev URL in Safari.
+7. Safari Share > Add to Home Screen.
+
+This prototype has no live tee-time feeds or automated notifications. GPS and saved searches are device-local. JC Golf booking opens its official CPS portal and may reuse an existing Safari session. No passwords are stored.
