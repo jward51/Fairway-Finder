@@ -36,3 +36,9 @@ For iPhone, validate actual push delivery with the app installed on the Home Scr
 ## ForeUP second
 
 Official partnership entry point: https://www.foreupgolf.com/partner-integrations/ and API terms: https://foreupgolf.com/wp-content/uploads/2024/03/foreUp-API-TOU.pdf . Request City of San Diego approval and provider-issued read-only API access, correct facility/tee-sheet/rate mappings for both Torrey Pines courses, Balboa Park and Mission Bay, residency/rate restrictions, polling rights and approved booking links. No ForeUP scraping or guessed booking endpoints are included.
+
+## Observed Twin Oaks booking destination
+
+The user followed a Noteefy Book link and supplied this final destination:
+`https://jcgsc4.cps.golf/onlineresweb/m/search-teetime/default?Date=2026-11-8&CourseId=4`.
+The Twin Oaks launcher now constructs links on that exact host/path with CourseId=4 and an optional selected date in the observed format. No time, group size, rate or account parameter is inferred. Other courses retain the original general shortcut. This is a user-observed booking destination, not API documentation or proof parameters survive authentication. Automated browsing could not access the page. The user's Safari session and provider-controlled login/2FA still need on-device testing. The app does not store provider credentials or claim authenticated status.

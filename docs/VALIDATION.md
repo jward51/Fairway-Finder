@@ -11,3 +11,7 @@
 ## Review delivery
 
 The patch is based on the matching uploaded baseline. In a checkout of jward51/Fairway-Finder at the recorded main commit, create feature/jc-availability and apply fairway-finder-jc-availability.patch with git apply. Review before committing or deploying. The ZIP contains the complete local source and docs for convenience; it is not a production deployment bundle.
+
+## Twin Oaks shortcut follow-up
+
+Two additional tests pass for observed host/path/course/date construction and rejection of invalid dates/unknown course mappings. All three test files pass. The shortcut is not yet verified through actual provider login on iPhone. No production deployment performed.

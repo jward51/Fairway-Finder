@@ -16,7 +16,7 @@ export function availabilityPanel(courses) {
   <button class="btn ghost" type="submit">Review search</button>
   <p id="availability-status" role="status" aria-live="polite">${escape(message)}</p></form>
   <p class="fine">No live results or sample tee times are shown. Last inventory check: never.</p>
-  <p>For now, open official CPS booking below. JC Golf documents multi-course selection in its portal; select your date and golfers there. Course, date and group size are not automatically transferred.</p>
+  <p>For now, open official CPS booking below. JC Golf documents multi-course selection in its portal; select your date and golfers there. The Twin Oaks launcher below can send its observed course/date parameters. Group size still needs to be selected on CPS.</p>
   <a target="_blank" rel="noopener noreferrer" href="https://www.jcgolf.com/news/how-to-use-jc-golfs-online-tee-time-reservation-system">Official multi-course booking instructions ↗</a></section>`;
 }
 export function handleAvailabilitySubmit(event) {

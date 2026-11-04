@@ -7,3 +7,5 @@ The JC tee times tab now prepares a multi-course search with date, golfers, time
 See [provider access findings](docs/PROVIDER-ACCESS.md) for the remaining integration requirements. `availability.js` is an internal filtering contract, not a provider API implementation.
 
 Feature work is for review only and has not been deployed. Keep Cloudflare production unchanged until reviewed. Static assets include the new availability modules and should be uploaded together. Do not deploy repository ZIPs, tests or documentation as public app assets.
+
+Twin Oaks booking uses the course/date destination observed from the user's Noteefy redirect on `jcgsc4.cps.golf`. This skips the Noteefy link but does not guarantee persistent login, correct rate selection or retention through authentication. Golfers and exact slots must still be selected on CPS.
