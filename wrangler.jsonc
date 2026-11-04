@@ -1,0 +1,12 @@
+{
+  "$schema": "https://unpkg.com/wrangler/config-schema.json",
+  "name": "weathered-mud-02f5",
+  "compatibility_date": "2026-01-01",
+  "workers_dev": true,
+  "build": {
+    "command": "node scripts/build.mjs"
+  },
+  "assets": {
+    "directory": "./dist"
+  }
+}
